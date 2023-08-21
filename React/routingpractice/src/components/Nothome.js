@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router";
 
-const Nothome = (props) => {
+const Nothome = () => {
     return (
       <div>
         <h1>Welcome</h1>

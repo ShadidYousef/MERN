@@ -1,6 +1,6 @@
 import { useParams } from "react-router";
 
-const Realnothome = (props) => {
+const Realnothome = () => {
     const {something } = useParams();
     const {color } = useParams();
     const {backgroud } = useParams();

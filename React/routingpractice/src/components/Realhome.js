@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router";
 
-const Realhome = (props) => {
+const Realhome = () => {
     const {something } = useParams();
     return (
       <div>
