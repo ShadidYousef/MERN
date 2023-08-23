@@ -10,8 +10,9 @@ const Color = (props) => {
         e.preventDefault();
     
         // create a javascript object to hold all of the values
-        setColors(colors.concat(color));
-
+        // setColors(colors.push(color));
+        setColors(colors.concat(color))
+        // setColors([...colors,color])
        
     };
     return (
